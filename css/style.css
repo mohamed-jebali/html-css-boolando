@@ -26,6 +26,17 @@ header{
     margin-bottom: 50px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
 }
+img{
+    height: 470px;
+}
+.box-picture{
+    height: 70px;
+    position: relative;
+}
+.box-images{
+    max-width: 1200px;
+    width: 70%; 
+}
 .margin-auto{
     margin: 0 auto;
 }
@@ -39,6 +50,10 @@ a{
     font-weight: 600;
     display: inline-block;
 }
+.text-picture{
+    color: black;
+
+}
 .nav-bar{
     list-style-type: none;
     width: 30%;
@@ -51,4 +66,30 @@ ul.nav-bar li{
 }
 .icons-user{
     height: 12px;
+}
+.linethrough{
+    text-decoration: line-through;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+.red-text{
+    color: red;
+    font-weight: 600;
+}
+.discount{
+    color: white;
+    background-color: red;
+    padding: 0.2rem 0.6rem;
+    position: absolute;
+    font-size: 0.8rem;
+}
+.green-text{
+    background-color: #008000;
+    font-weight: 600;
+}
+.white-bg{
+    background-color: white;
+    color: black;
+    font-size: 2rem;
 }
