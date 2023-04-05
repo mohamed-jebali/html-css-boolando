@@ -22,6 +22,10 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+.flex-end{
+    display: flex;
+    flex: end;
+}
 header{
     height: 75px;
     background-color: #ff6900;
@@ -40,9 +44,6 @@ img{
 }
 div.box-picture>img{
     width: 100%;
-}
-div.box-picture{
-    position: relative;
 }
 .box-images{
     max-width: 1200px;
@@ -112,7 +113,34 @@ ul.nav-bar li{
     right: 0;
     top: 10px;
 }
+.white-bg:hover{
+    color: red;
+}
+.second-version{
+    position: absolute;
+    left: 0;
+}
+div.box-picture{
+    position: relative;
+}
+.hidden-image{
+    display: none;
+}
+.hidden-image:hover{
+    display: block;
+    z-index: 1;
+}
 footer{
     background-color: #1a1a1a;
     height: 90px;
+    padding: 18px 0;
+}
+.footer-text{
+    max-width: 1200px;
+    width: 70%;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+.social-icon{
+    height: 20px;
 }
