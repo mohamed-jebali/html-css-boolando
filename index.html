@@ -13,30 +13,30 @@
         <nav>
             <ul class="nav-bar flex">
                 <li>
-                    <a href="#">Donna</a>
+                    <a href="#" title="Donna">Donna</a>
                 </li>
                 <li>
-                    <a href="#">Uomo</a>
+                    <a href="#" title="Uomo">Uomo</a>
                 </li>
                 <li>
-                    <a href="#">Bambini</a>
+                    <a href="#" title="Bambini">Bambini</a>
                 </li>
             </ul>
         </nav>
-        <img class="logo-boolean" src="./img/boolean-logo.png" alt="boolean-logo">
-        <img class="icons-user" src="./img/icons.svg" alt="icons-user">
+        <img class="logo-boolean" src="./img/boolean-logo.png" alt="boolean-logo" title="logo-boolean">
+        <img class="icons-user" src="./img/icons.svg" alt="icons-user" title="icons">
     </div>
     </header>
 
     <main class="flex box-images margin-auto flex-wrap">
 
-        <div class="box-card flex-wrap">
+        <div class="box-card">
         <div class="box-picture">
-            <img src="./img/1.webp" alt="img-1-Levis">
-             <img src="./img/1b.webp" alt="img-1b-Levis" class="hidden-image">
+            <img src="./img/1.webp" alt="img-1-Levis" class="front-image">
+            <img src="./img/1b.webp" alt="img-1b-Levis" class="hidden-image">
             <span class="discount red-text">-50%</span>
             <span class="discount green-text">Sostenibilità</span>
-            <span class="white-bg">&hearts;</span>
+            <span class="white-bg" title="add favorite">&hearts;</span>
         </div>
 
             <div class="text-picture">
@@ -48,9 +48,10 @@
 
         <div class="box-card">
             <div class="box-picture">
-                <img src="./img/2.webp" alt="img-2-Guess">
+                <img src="./img/2.webp" alt="img-2-Guess" class="front-image">
+                <img src="./img/2b.webp" alt="img-2b-Guess" class="hidden-image">
                 <span class="discount red-text">-30%</span>
-                <span class="white-bg">&hearts;</span>
+                <span class="white-bg" title="add favorite">&hearts;</span>
             </div>
     
                 <div class="text-picture">
@@ -62,9 +63,10 @@
 
             <div class="box-card">
                 <div class="box-picture">
-                    <img src="./img/3.webp" alt="img-3-Zucchero-Filato">
+                    <img src="./img/3.webp" alt="img-3-Zucchero-Filato" class="front-image">
+                    <img src="./img/3b.webp" alt="img-3b-Zucchero-Filato" class="hidden-image">
                     <span class="discount red-text">-30%</span>
-                    <span class="white-bg">&hearts;</span>
+                    <span class="white-bg" title="add favorite">&hearts;</span>
                 </div>
         
                     <div class="text-picture">
@@ -76,10 +78,11 @@
 
                 <div class="box-card">
                     <div class="box-picture">
-                        <img src="./img/4.webp" alt="img-4-Levis">
+                        <img src="./img/4.webp" alt="img-4-Levis" class="front-image">
+                        <img src="./img/4b.webp" alt="img-4b-Levis" class="hidden-image">
                         <span class="discount red-text">-50%</span>
                         <span class="discount green-text">Sostenibilità</span>
-                        <span class="white-bg">&hearts;</span>
+                        <span class="white-bg" title="add favorite">&hearts;</span>
                     </div>
             
                         <div class="text-picture">
@@ -91,8 +94,9 @@
 
                     <div class="box-card">
                         <div class="box-picture">
-                            <img src="./img/5.webp" alt="img-5-Maya-deluxe">
-                            <span class="white-bg">&hearts;</span>
+                            <img src="./img/5.webp" alt="img-5-Maya-deluxe" class="front-image">
+                            <img src="./img/5b.webp" alt="img-5b-Maya-deluxe" class="hidden-image">
+                            <span class="white-bg" title="add favorite">&hearts;</span>
                         </div>
                 
                             <div class="text-picture">
@@ -105,28 +109,32 @@
 
                     <div class="box-card">
                         <div class="box-picture">
-                            <img src="./img/6.webp" alt="img-1 Levis">
+                            <img src="./img/6.webp" alt="img-6 Levis" class="front-image">
+                            <img src="./img/6b.webp" alt="img-6b-Levis" class="hidden-image">
                             <span class="discount green-text second-version">Sostenibilità</span>
-                            <span class="white-bg">&hearts;</span>
-                        </div>
+                            <span class="white-bg" title="add favorite">&hearts;</span>
+                    </div>
                 
                             <div class="text-picture">
                                 <p>Esprit</p>
                                 <strong>MAGLIONE - BLACK</strong>
                                 <p class="red-text">29,99 &euro;</p>
                             </div>
-                        </div>
+            </div>
    </main>
 
 <footer>
    <div class="footer-text margin-auto flex">
-    <p class="company">
-    <strong>
-        Boolando s.r.l
-    </strong>
-    <br>
-        informazioni legali informativa sulla privacy Diritto di recesso
-    </p>
+    <div>
+        <strong>
+            Boolando s.r.l
+        </strong>
+        <ul class="company flex">
+            <li>Informazioni legali</li>
+            <li>Informativa sulla privacy</li>
+            <li>Diritto di recesso</li>
+        </ul>
+    </div>
     <strong class="social-reference">
         Trovaci anche su <br>
         <img class="social-icon" src="./img/social-icon.svg" alt="">
