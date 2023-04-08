@@ -25,7 +25,6 @@ body{
     justify-content: space-between;
 }
 header{
-    height: 75px;
     background-color: #ff6900;
     padding: 28px 0;
     margin-bottom: 50px;
@@ -35,8 +34,10 @@ header{
     width: 100%;
     z-index: 1;
 }
-.cards-wrapper{
+.container{
     margin-top: 100px;
+    max-width: 1200px;
+    width: 70%;
 }
 nav{
     width: 20%;
@@ -51,10 +52,6 @@ div.box-icons{
 }
 div.box-picture>img{
     width: 100%;
-}
-.box-images{
-    width: 70%;
-    position: relative;
 }
 .header-wrapper{
     width: 70%;
@@ -106,7 +103,7 @@ ul.nav-bar li{
 .green-text{
     background-color: #008000;
     font-weight: 600;
-    left: 17%;
+    left: 15%;
 }
 .white-bg{
     padding: 0.16rem 0.6rem;
